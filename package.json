@@ -1,0 +1,23 @@
+{
+  "name": "boleto-facil-ipn",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "repository": "https://github.com/phabloraylan/boletofacil-ipn-sdk-node",
+  "author": "Phablo Raylan",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha",
+    "lint": "eslint --ext ts,tsx src/*"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0",
+    "typescript": "^3.8.3"
+  }
+}
